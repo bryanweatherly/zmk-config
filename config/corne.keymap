@@ -21,10 +21,10 @@
 
             label = "Base";
             bindings = <
-&kp TAB    &kp Q    &kp W  &kp E         &kp R      &kp T         &kp Y      &kp U       &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A    &kp S  &kp D         &kp F      &kp G         &kp H      &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &lt 4 Z  &kp X  &kp C         &kp V      &kp B         &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
-                           &lt 3 ESCAPE  &lt 1 TAB  &kp RETURN    &kp SPACE  &lt 2 BSPC  &kp RGUI
+&kp TAB    &kp Q  &kp W  &kp E         &kp R      &kp T         &kp Y      &kp U       &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D         &kp F      &kp G         &kp H      &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V      &lt 4 B       &lt 4 N    &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
+                         &lt 3 ESCAPE  &lt 1 TAB  &kp RETURN    &kp SPACE  &lt 2 BSPC  &kp RGUI
             >;
         };
 
@@ -73,10 +73,10 @@
         layer_4 {
             label = "Num Pad";
             bindings = <
-&kp TAB    &trans    &trans        &trans   &trans  &trans       &trans     &kp N7  &kp N8  &kp N9  &trans  &trans
-&kp LCTRL  &trans    &trans        &trans   &trans  &trans       &trans     &kp N4  &kp N5  &kp N6  &trans  &trans
-&kp LSHFT  &kp LALT  &kp LEFT_GUI  &trans   &trans  &trans       &trans     &kp N1  &kp N2  &kp N3  &trans  &kp RALT
-                                   &kp ESC  &trans  &kp ENTER    &kp SPACE  &trans  &kp N0
+&kp TAB    &kp N1    &kp N2        &kp N3   &kp N4  &kp N5       &kp N7      &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&kp LCTRL  &trans    &trans        &trans   &trans  &trans       &trans      &kp N4  &kp N5  &kp N6  &trans  &trans
+&kp LSHFT  &kp LALT  &kp LEFT_GUI  &trans   &trans  &trans       &kp PERIOD  &kp N1  &kp N2  &kp N3  &trans  &kp RALT
+                                   &kp ESC  &trans  &kp ENTER    &kp SPACE   &trans  &kp N0
             >;
         };
     };
